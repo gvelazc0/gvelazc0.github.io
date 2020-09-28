@@ -1,59 +1,54 @@
 body {
-	background-color: #B0E0E6;
+	background-color: #a8dadc;
 }
 
-	h1 {
-		background-color: #F5F5F5;
-		color: #4682B4;
+	header {
+		color: #05668d;
 		text-align: center;
-		font-family: Georgia;
+		font-family: Georgia, serif;
+		font-size: large;
+	}
+	
+	h1 {
+		background-color: #e0fbfc;
 		margin-left: 80px;
 		margin-right: 80px;
+		padding: 0.15em;
 	}
 	
 	figure {
 		text-align: center;
-		font-family: verdana;
+		font-family: Verdana, Geneva, sans-serif;
 		font-size: small;
-	}
-	
-	figcaption {
-		text-align: center;
-		font-family: verdana;
-		font-size: small;
-		font-style: italic
-	}
-	
-	h2 {
-		margin-left: 80px;
-		font-family: verdana;
-		color: #4682B4;
+		font-style: italic;
+		line-height: 1.5;
+		padding-bottom: 25px;
 	}
 	
 	main {
-		margin-left: 100px;
-		margin-right: 120px;
+		margin-left: 180px;
+		margin-right: 180px;
 		text-align: justify;
-		font-size: 100%;
-		font-family: verdana;
+		font-family: Verdana, Geneva, sans-serif;
+		color: #3d5a80;
+		font-size: large;
 	}
 
+	li {
+		line-height: 1.7;
+	}
+
+	.title {
+		font-weight: bold;
+		color: #1D3557;
+	}
+		
 	dt {
 		font-weight: bold;
-		color: #4682B4;
+		color: #1D3557;
 		padding: 0.5em;
 		}
-	
-	li {
-		margin-left: 20px;
-	}
-	
-	nav {
-		text-align: center;
-		font-family: verdana;
-		font-size: small;
-	}
-	
+
 	hr {
 		margin-left: 80px;
 		margin-right: 80px;
@@ -61,19 +56,27 @@ body {
 	
 	 footer {
 		 text-align: center;
-		 font-family: verdana;
-		 font-size: small;
+		 font-family: Georgia, serif; 
 		 font-style: italic;
-		 color: #DB7093;
-	 }
+		 color: #3d5a80;
+		 line-height: 1.5;
+	}
+
+	nav {
+		text-align: center;
+		font-family: Verdana, Geneva, sans-serif;
+		font-size: medium;
+		font-style: normal;
+	}
+	
 
 a:link {text-decoration: none;
-		color: #3366cc;}
+		color: #e26d5c;}
 a:visited {text-decoration: none;
-		   color: #3366cc;}
+		   color: #e26d5c;}
 a:hover {text-decoration: none;
 		 color: gray;}
 a:active {text-decoration: none;
-		  color: #3366cc;}
+		  color: #e26d5c;}
 		  
 		  

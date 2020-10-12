@@ -17,12 +17,16 @@ body {
 	}
 	
 	figure {
+		text-align: center;	
+		padding-bottom: 15px;
+	}
+	
+	figcaption {
 		text-align: center;
 		font-family: Verdana, Geneva, sans-serif;
-		font-size: medium;
 		font-style: italic;
-		line-height: 1.5;
-		padding-bottom: 25px;
+		font-size: medium;
+		padding-bottom: 10px;
 	}
 	
 	main {

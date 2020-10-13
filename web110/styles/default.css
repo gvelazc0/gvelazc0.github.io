@@ -16,6 +16,10 @@ body {
 		padding: 0.15em;
 	}
 	
+	h2 {
+		padding: 0.7em 0em 0.7em 0em;
+	}
+	
 	figure {
 		text-align: center;	
 		padding-bottom: 15px;
